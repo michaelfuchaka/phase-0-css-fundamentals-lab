@@ -3,3 +3,42 @@ body {
   height: 100%;
   margin: 0;
 }
+h1 {
+  text-align: center;
+}
+figure {
+text-align: center;
+}
+figure {
+  display: block;
+  margin: auto;
+}
+.navbar {
+  text-align: center;
+}
+.navbar a {
+padding-left: 10px;
+padding-right: 10px;
+background-color: grey;
+color: white;
+margin: 0 5px;
+}
+.content p {
+  text align:center;
+  width: 800px;
+  margin: 20px auto;
+  line-height: 1.6;
+}
+#details div {
+  float: left;
+  width: 25%;
+  background-color: lightgray;
+  text-align: center;padding: 20px;
+  box-sizing: border-box;
+}
+#details::after
+{
+  content: "";
+  display: table;
+  clear: both;
+}
